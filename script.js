@@ -1,29 +1,29 @@
 // 定義正面圖片路徑
-const frontImage = "/images/picture0.png"; 
+const frontImage = "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture0.png";
 
 // 定義食物主題的背面圖片
 const foodImages = [
-  "/images/picture1.png",
-  "/images/picture2.png",
-  "/images/picture3.png",
-  "/images/picture4.png",
-  "/images/picture5.png",
-  "/images/picture6.png",
-  "/images/picture7.png",
-  "/images/picture8.png"
-];
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture1.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture2.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture3.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture4.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture5.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture6.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture7.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/food/picture8.png"
+        ];
 
-// 定義動物主題的背面圖片
-const animalImages = [
-  "/images/animal1.png",
-  "/images/animal2.png",
-  "/images/animal3.png",
-  "/images/animal4.png",
-  "/images/animal5.png",
-  "/images/animal6.png",
-  "/images/animal7.png",
-  "/images/animal8.png"
-];
+        // 定義動物主題的背面圖片
+        const animalImages = [
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal1.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal2.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal3.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal4.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal5.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal6.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal7.png",
+            "https://raw.githubusercontent.com/hazel41041212/0925-41041212/main/images/animals/animal8.png"
+        ];
 
 let selectedImages = []; // 用來存儲當前選中的主題圖片集
 
