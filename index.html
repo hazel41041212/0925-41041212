@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4x4 卡片翻轉效果</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 引入CSS檔 -->
+</head>
+<body>
+  <h1>記憶大考驗</h1> <!-- 添加標題 -->
+  
+  <!-- 主題選擇 -->
+  <div class="theme-selection">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="theme" id="foodTheme" value="food">
+      <label class="form-check-label" for="foodTheme">食物主題</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="theme" id="animalTheme" value="animal">
+      <label class="form-check-label" for="animalTheme">動物主題</label>
+    </div>
+  </div>
+
+  <!-- 控制按鈕 -->
+  <div class="button-container">
+    <button class="button" id="startGame" disabled>開始遊戲</button>
+    <button class="button" id="showFront">顯示正面</button>
+    <button class="button" id="showBack">顯示背面</button>
+  </div>
+
+  <div id="card-wrapper"></div> <!-- 動態生成卡片的容器 -->
+
+  <script src="script.js"></script> <!-- 引入JavaScript檔 -->
+</body>
+</html>
